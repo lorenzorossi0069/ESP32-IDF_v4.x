@@ -1,0 +1,4 @@
+serve editare component.mk?
+R: si, li metto in CMakefile.txt
+
+
