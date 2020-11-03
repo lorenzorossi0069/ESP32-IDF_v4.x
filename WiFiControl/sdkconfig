@@ -119,18 +119,20 @@ CONFIG_PARTITION_TABLE_MD5=y
 # end of Partition Table
 
 #
-# Example Configuration
+# Extra - WiFi AP Connection Configuration 
 #
-CONFIG_EXAMPLE_WIFI_SSID="myEsp32"
-CONFIG_EXAMPLE_WIFI_PASSWORD="myPassword"
+CONFIG_EXAMPLE_WIFI_CHANNEL=1
 CONFIG_EXAMPLE_MAXIMUM_RETRY=5
-# end of Example Configuration
+CONFIG_EXAMPLE_MAXIMUM_CONN=3
+# end of Extra - WiFi AP Connection Configuration 
 
 #
 # Example Connection Configuration
 #
 CONFIG_EXAMPLE_CONNECT_WIFI=y
 # CONFIG_EXAMPLE_CONNECT_ETHERNET is not set
+CONFIG_EXAMPLE_WIFI_SSID="myESP32"
+CONFIG_EXAMPLE_WIFI_PASSWORD="12345678"
 CONFIG_EXAMPLE_CONNECT_IPV6=y
 # end of Example Connection Configuration
 

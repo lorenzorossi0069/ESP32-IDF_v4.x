@@ -1,5 +1,7 @@
-idf_component_register(SRCS "main.c"
+idf_component_register(SRCS "WiFiControlMain.c"
                     INCLUDE_DIRS "."
-		    EMBED_FILES off.png 
-		    EMBED_FILES on.png)
+		    EMBED_FILES RefreshBtn.png
+				on.png  
+				off.png
+			)
 
